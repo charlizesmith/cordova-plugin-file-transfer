@@ -65,9 +65,9 @@ import org.json.JSONObject;
 import android.net.Uri;
 import android.os.Build;
 import android.util.Log;
-import org.xwalk.core.XWalkCookieManager;
+//import org.xwalk.core.XWalkCookieManager;   // for crosswalk greater or equal to v2.1.0
 //import android.webkit.CookieManager;
-//import org.xwalk.core.internal.XWalkCookieManager;
+import org.xwalk.core.internal.XWalkCookieManager; // for crosswalk version 1.1.0 
 public class FileTransfer extends CordovaPlugin {
 
     private static final String LOG_TAG = "FileTransfer";
